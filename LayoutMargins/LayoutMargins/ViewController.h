@@ -22,16 +22,19 @@
 
 
 /*
- layoutMargins 理解：设置一个视图的边距（视图边缘与其子视图边缘的距离），防止子视图和父视图边缘重合。只有通过设置子视图边缘到视图边缘的距离约束时，通过设置边到父视图边的距离的时候才有效，通过设置子视图的宽和高的约束来控制frame时，layoutMargins无效。即：设置
-     NSLayoutAttributeRight,
-     NSLayoutAttributeTop,
-     NSLayoutAttributeBottom,
-     NSLayoutAttributeLeading,
-     NSLayoutAttributeTrailing,
- 时有效，设置
-     NSLayoutAttributeWidth,
-     NSLayoutAttributeHeight,
- 时无效 见[self example1];消息
+ layoutMargins 理解：设置一个视图的边距（视图边缘与其子视图边缘的距离），防止子视图和父视图边缘重合。在iOS 8中，可以使用layoutMargins去定义view之间的间距,该属性只对AutoLayout布局生效。
+ 
+ 因此AutoLayout中NSLayoutAttribute的枚举值有了相应的更新：
+ NSLayoutAttributeLeftMargin NS_ENUM_AVAILABLE_IOS(8_0),
+ NSLayoutAttributeRightMargin NS_ENUM_AVAILABLE_IOS(8_0),
+ NSLayoutAttributeTopMargin NS_ENUM_AVAILABLE_IOS(8_0),
+ NSLayoutAttributeBottomMargin NS_ENUM_AVAILABLE_IOS(8_0),
+ NSLayoutAttributeLeadingMargin NS_ENUM_AVAILABLE_IOS(8_0),
+ NSLayoutAttributeTrailingMargin NS_ENUM_AVAILABLE_IOS(8_0),
+ NSLayoutAttributeCenterXWithinMargins NS_ENUM_AVAILABLE_IOS(8_0),
+ NSLayoutAttributeCenterYWithinMargins NS_ENUM_AVAILABLE_IOS(8_0),
+ 
+ 代码只有通过这些枚举值定义约束时，父视图定义的layoutMargins才会生效。见[self example1];消息
  
  preservesSuperviewLayoutMargins 理解：当为YES时，保证满足父视图通过layoutMargins设置的边距，如果一个视图A本身无法满足父视图B的layoutMargins并且视图的preservesSuperviewLayoutMargins属性为YES时，UIKit自动调整视图A内容视图的的布局以满足父视图的margins。见[self example2];
  

@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self example1];
-    [self example2];
-    [self example3];
+//    [self example2];
+//    [self example3];
 }
 
 - (void)example1 {
@@ -38,13 +38,12 @@
     yellowView.translatesAutoresizingMaskIntoConstraints = NO;
     [blueView addSubview:yellowView];
     [constraints removeAllObjects];
-    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeWidth multiplier:1.0 constant:0.0]];
-    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeHeight multiplier:0.5 constant:0.0]];
-    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0.0]];
-    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0.0]];
+    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeLeftMargin relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeLeftMargin multiplier:1.0 constant:0.0]];
+    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeRightMargin relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeRightMargin multiplier:1.0 constant:0.0]];
+    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeTopMargin relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeTopMargin multiplier:1.0 constant:0.0]];
+    [constraints addObject:[NSLayoutConstraint constraintWithItem:yellowView attribute:NSLayoutAttributeBottomMargin relatedBy:NSLayoutRelationEqual toItem:blueView attribute:NSLayoutAttributeBottomMargin multiplier:1.0 constant:0.0]];
     [blueView addConstraints:constraints];
-    
-    // yellowView的约束通过设置宽等于blueView的宽，高等于blueView的一半，这么设置即使设置了blueView的layoutMargins也没有效果yellowView的左右边缘还是和blueView的重合
+
     blueView.layoutMargins = UIEdgeInsetsMake(50, 50, 50, 50);
 }
 
