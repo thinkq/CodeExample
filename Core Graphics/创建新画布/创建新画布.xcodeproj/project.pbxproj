@@ -13,6 +13,7 @@
 		9CB0E08E1DED80F9001F65B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0E08C1DED80F9001F65B9 /* Main.storyboard */; };
 		9CB0E0901DED80F9001F65B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0E08F1DED80F9001F65B9 /* Assets.xcassets */; };
 		9CB0E0931DED80F9001F65B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0E0911DED80F9001F65B9 /* LaunchScreen.storyboard */; };
+		9CB0E1151DEDAAA4001F65B9 /* rulai.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0E1141DEDAAA4001F65B9 /* rulai.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9CB0E08F1DED80F9001F65B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB0E0921DED80F9001F65B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB0E0941DED80F9001F65B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB0E1141DEDAAA4001F65B9 /* rulai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rulai.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9CB0E0891DED80F9001F65B9 /* ViewController.h */,
 				9CB0E08A1DED80F9001F65B9 /* ViewController.m */,
 				9CB0E08C1DED80F9001F65B9 /* Main.storyboard */,
+				9CB0E1141DEDAAA4001F65B9 /* rulai.png */,
 				9CB0E08F1DED80F9001F65B9 /* Assets.xcassets */,
 				9CB0E0911DED80F9001F65B9 /* LaunchScreen.storyboard */,
 				9CB0E0941DED80F9001F65B9 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB0E0931DED80F9001F65B9 /* LaunchScreen.storyboard in Resources */,
+				9CB0E1151DEDAAA4001F65B9 /* rulai.png in Resources */,
 				9CB0E0901DED80F9001F65B9 /* Assets.xcassets in Resources */,
 				9CB0E08E1DED80F9001F65B9 /* Main.storyboard in Resources */,
 			);
@@ -311,6 +315,7 @@
 				9CB0E0991DED80F9001F65B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

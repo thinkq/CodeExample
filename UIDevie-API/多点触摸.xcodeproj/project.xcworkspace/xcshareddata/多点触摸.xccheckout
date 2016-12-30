@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F42CD93-7617-4076-8B7F-744019688986</string>
+	<key>IDESourceControlProjectName</key>
+	<string>多点触摸</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9992D1E97C9628A624AF0856647341C36E7FAD5A</key>
+		<string>github.com:thinkq/UIDevie-API.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>多点触摸.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9992D1E97C9628A624AF0856647341C36E7FAD5A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:thinkq/UIDevie-API.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9992D1E97C9628A624AF0856647341C36E7FAD5A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9992D1E97C9628A624AF0856647341C36E7FAD5A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E5%A4%9A%E7%82%B9%E8%A7%A6%E6%91%B8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

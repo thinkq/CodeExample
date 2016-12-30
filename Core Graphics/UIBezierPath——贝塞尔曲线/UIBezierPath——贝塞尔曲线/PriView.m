@@ -11,8 +11,8 @@
 @implementation PriView
 
 - (void)drawRect:(CGRect)rect {
-//    [self bezier];
-    [self roundingCorner];
+    [self bezier];
+//    [self roundingCorner];
 }
 
 // 贝塞尔曲线

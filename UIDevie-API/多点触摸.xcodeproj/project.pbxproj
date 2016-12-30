@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D701BE121B8C7B2100C6680F /* CGAffineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D701BE111B8C7B2100C6680F /* CGAffineViewController.m */; };
+		D72CA27F1B772F6C00130831 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72CA27E1B772F6C00130831 /* TableViewController.m */; };
+		D72CA2821B772FBB00130831 /* ViewControllerMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = D72CA2811B772FBB00130831 /* ViewControllerMotion.m */; };
+		D72CA2851B77375F00130831 /* ViewControllerAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = D72CA2841B77375F00130831 /* ViewControllerAccelerometer.m */; };
+		D72CA2871B77395D00130831 /* metal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D72CA2861B77395C00130831 /* metal@2x.png */; };
+		D72CA28E1B77635100130831 /* ApplicationIconBadgeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = D72CA28C1B77635100130831 /* ApplicationIconBadgeNumber.m */; };
+		D72CA28F1B77635100130831 /* ApplicationIconBadgeNumber.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72CA28D1B77635100130831 /* ApplicationIconBadgeNumber.xib */; };
+		D78D00021B7D958300ABFECA /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D00011B7D958300ABFECA /* DrawRectView.m */; };
+		D78D00051B7DC09400ABFECA /* DrawRectView1.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D00041B7DC09400ABFECA /* DrawRectView1.m */; };
+		D78D00071B7DD41600ABFECA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D78D00061B7DD41600ABFECA /* logo.png */; };
+		D78D000A1B7DD44100ABFECA /* DrawRectView2.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D00091B7DD44100ABFECA /* DrawRectView2.m */; };
+		D78D000D1B7DD97600ABFECA /* DrawRectView3.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D000C1B7DD97600ABFECA /* DrawRectView3.m */; };
+		D78D00101B7DDE8E00ABFECA /* DrawRectView4.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D000F1B7DDE8E00ABFECA /* DrawRectView4.m */; };
+		D78D00121B7DE44200ABFECA /* run@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D78D00111B7DE44200ABFECA /* run@2x.png */; };
+		D78D00141B7DE44800ABFECA /* computer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D78D00131B7DE44800ABFECA /* computer@2x.png */; };
+		D78DFFFF1B7D955700ABFECA /* DrawRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78DFFFE1B7D955700ABFECA /* DrawRectViewController.m */; };
+		D79BDAFB1B830F46003C6AD7 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BDAF91B830F46003C6AD7 /* NotificationViewController.m */; };
+		D79BDAFC1B830F46003C6AD7 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79BDAFA1B830F46003C6AD7 /* NotificationViewController.xib */; };
+		D79BDB001B831F7E003C6AD7 /* TextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BDAFF1B831F7E003C6AD7 /* TextFieldViewController.m */; };
+		D7A9C4921B737E63007AA93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A9C4911B737E63007AA93E /* main.m */; };
+		D7A9C4951B737E63007AA93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A9C4941B737E63007AA93E /* AppDelegate.m */; };
+		D7A9C4981B737E63007AA93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A9C4971B737E63007AA93E /* ViewController.m */; };
+		D7A9C49D1B737E63007AA93E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A9C49C1B737E63007AA93E /* Images.xcassets */; };
+		D7A9C4A01B737E63007AA93E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A9C49E1B737E63007AA93E /* LaunchScreen.xib */; };
+		D7A9C4AC1B737E63007AA93E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A9C4AB1B737E63007AA93E /* ____Tests.m */; };
+		D7FCC0651B78366F00BE3DA7 /* UIDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0641B78366F00BE3DA7 /* UIDeviceView.m */; };
+		D7FCC0681B783E3500BE3DA7 /* CopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0671B783E3500BE3DA7 /* CopyViewController.m */; };
+		D7FCC06B1B78418600BE3DA7 /* CopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC06A1B78418600BE3DA7 /* CopyLabel.m */; };
+		D7FCC06E1B78470C00BE3DA7 /* CopyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC06D1B78470C00BE3DA7 /* CopyImageView.m */; };
+		D7FCC0701B78491800BE3DA7 /* copyimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FCC06F1B78491800BE3DA7 /* copyimage.png */; };
+		D7FCC08C1B784A6600BE3DA7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7FCC0721B784A6600BE3DA7 /* Info.plist */; };
+		D7FCC08D1B784A6600BE3DA7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0741B784A6600BE3DA7 /* MASCompositeConstraint.m */; };
+		D7FCC08E1B784A6600BE3DA7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0771B784A6600BE3DA7 /* MASConstraint.m */; };
+		D7FCC08F1B784A6600BE3DA7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0791B784A6600BE3DA7 /* MASConstraintMaker.m */; };
+		D7FCC0901B784A6600BE3DA7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC07B1B784A6600BE3DA7 /* MASLayoutConstraint.m */; };
+		D7FCC0911B784A6600BE3DA7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC07F1B784A6600BE3DA7 /* MASViewAttribute.m */; };
+		D7FCC0921B784A6600BE3DA7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0811B784A6600BE3DA7 /* MASViewConstraint.m */; };
+		D7FCC0931B784A6600BE3DA7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0831B784A6600BE3DA7 /* NSArray+MASAdditions.m */; };
+		D7FCC0941B784A6600BE3DA7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0861B784A6600BE3DA7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D7FCC0951B784A6600BE3DA7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC0881B784A6600BE3DA7 /* View+MASAdditions.m */; };
+		D7FCC0961B784A6600BE3DA7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCC08B1B784A6600BE3DA7 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A9C4A61B737E63007AA93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A9C4841B737E63007AA93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A9C48B1B737E63007AA93E;
+			remoteInfo = "多点触摸";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D701BE101B8C7B2100C6680F /* CGAffineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineViewController.h; sourceTree = "<group>"; };
+		D701BE111B8C7B2100C6680F /* CGAffineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineViewController.m; sourceTree = "<group>"; };
+		D72CA27D1B772F6C00130831 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D72CA27E1B772F6C00130831 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D72CA2801B772FBB00130831 /* ViewControllerMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerMotion.h; path = ../ViewControllerMotion.h; sourceTree = "<group>"; };
+		D72CA2811B772FBB00130831 /* ViewControllerMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerMotion.m; path = ../ViewControllerMotion.m; sourceTree = "<group>"; };
+		D72CA2831B77375F00130831 /* ViewControllerAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerAccelerometer.h; path = ../ViewControllerAccelerometer.h; sourceTree = "<group>"; };
+		D72CA2841B77375F00130831 /* ViewControllerAccelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerAccelerometer.m; path = ../ViewControllerAccelerometer.m; sourceTree = "<group>"; };
+		D72CA2861B77395C00130831 /* metal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metal@2x.png"; path = "../多点触摸/metal@2x.png"; sourceTree = "<group>"; };
+		D72CA28B1B77635100130831 /* ApplicationIconBadgeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationIconBadgeNumber.h; path = ../ApplicationIconBadgeNumber.h; sourceTree = "<group>"; };
+		D72CA28C1B77635100130831 /* ApplicationIconBadgeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationIconBadgeNumber.m; path = ../ApplicationIconBadgeNumber.m; sourceTree = "<group>"; };
+		D72CA28D1B77635100130831 /* ApplicationIconBadgeNumber.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ApplicationIconBadgeNumber.xib; path = ../ApplicationIconBadgeNumber.xib; sourceTree = "<group>"; };
+		D78D00001B7D958300ABFECA /* DrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawRectView.h; path = "多点触摸/DrawRectView.h"; sourceTree = SOURCE_ROOT; };
+		D78D00011B7D958300ABFECA /* DrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawRectView.m; path = "多点触摸/DrawRectView.m"; sourceTree = SOURCE_ROOT; };
+		D78D00031B7DC09400ABFECA /* DrawRectView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawRectView1.h; path = "多点触摸/motion/DrawRectView1.h"; sourceTree = SOURCE_ROOT; };
+		D78D00041B7DC09400ABFECA /* DrawRectView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawRectView1.m; path = "多点触摸/motion/DrawRectView1.m"; sourceTree = SOURCE_ROOT; };
+		D78D00061B7DD41600ABFECA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Masonry/logo.png; sourceTree = "<group>"; };
+		D78D00081B7DD44100ABFECA /* DrawRectView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawRectView2.h; path = "多点触摸/DrawRectView2.h"; sourceTree = SOURCE_ROOT; };
+		D78D00091B7DD44100ABFECA /* DrawRectView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawRectView2.m; path = "多点触摸/DrawRectView2.m"; sourceTree = SOURCE_ROOT; };
+		D78D000B1B7DD97600ABFECA /* DrawRectView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawRectView3.h; path = "多点触摸/DrawRectView3.h"; sourceTree = SOURCE_ROOT; };
+		D78D000C1B7DD97600ABFECA /* DrawRectView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawRectView3.m; path = "多点触摸/DrawRectView3.m"; sourceTree = SOURCE_ROOT; };
+		D78D000E1B7DDE8E00ABFECA /* DrawRectView4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawRectView4.h; path = "多点触摸/DrawRectView4.h"; sourceTree = SOURCE_ROOT; };
+		D78D000F1B7DDE8E00ABFECA /* DrawRectView4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawRectView4.m; path = "多点触摸/DrawRectView4.m"; sourceTree = SOURCE_ROOT; };
+		D78D00111B7DE44200ABFECA /* run@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "run@2x.png"; sourceTree = "<group>"; };
+		D78D00131B7DE44800ABFECA /* computer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "computer@2x.png"; sourceTree = "<group>"; };
+		D78DFFFD1B7D955700ABFECA /* DrawRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawRectViewController.h; path = "多点触摸/DrawRectViewController.h"; sourceTree = SOURCE_ROOT; };
+		D78DFFFE1B7D955700ABFECA /* DrawRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawRectViewController.m; path = "多点触摸/DrawRectViewController.m"; sourceTree = SOURCE_ROOT; };
+		D79BDAF81B830F46003C6AD7 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		D79BDAF91B830F46003C6AD7 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		D79BDAFA1B830F46003C6AD7 /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		D79BDAFE1B831F7E003C6AD7 /* TextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldViewController.h; sourceTree = "<group>"; };
+		D79BDAFF1B831F7E003C6AD7 /* TextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldViewController.m; sourceTree = "<group>"; };
+		D7A9C48C1B737E63007AA93E /* 多点触摸.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多点触摸.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A9C4901B737E63007AA93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A9C4911B737E63007AA93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7A9C4931B737E63007AA93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7A9C4941B737E63007AA93E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7A9C4961B737E63007AA93E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		D7A9C4971B737E63007AA93E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		D7A9C49C1B737E63007AA93E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7A9C49F1B737E63007AA93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7A9C4A51B737E63007AA93E /* 多点触摸Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多点触摸Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A9C4AA1B737E63007AA93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A9C4AB1B737E63007AA93E /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		D7FCC0631B78366F00BE3DA7 /* UIDeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIDeviceView.h; path = ../UIDeviceView.h; sourceTree = "<group>"; };
+		D7FCC0641B78366F00BE3DA7 /* UIDeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDeviceView.m; path = ../UIDeviceView.m; sourceTree = "<group>"; };
+		D7FCC0661B783E3500BE3DA7 /* CopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CopyViewController.h; path = ../CopyViewController.h; sourceTree = "<group>"; };
+		D7FCC0671B783E3500BE3DA7 /* CopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CopyViewController.m; path = ../CopyViewController.m; sourceTree = "<group>"; };
+		D7FCC0691B78418600BE3DA7 /* CopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CopyLabel.h; path = ../CopyLabel.h; sourceTree = "<group>"; };
+		D7FCC06A1B78418600BE3DA7 /* CopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CopyLabel.m; path = ../CopyLabel.m; sourceTree = "<group>"; };
+		D7FCC06C1B78470C00BE3DA7 /* CopyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CopyImageView.h; path = ../CopyImageView.h; sourceTree = "<group>"; };
+		D7FCC06D1B78470C00BE3DA7 /* CopyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CopyImageView.m; path = ../CopyImageView.m; sourceTree = "<group>"; };
+		D7FCC06F1B78491800BE3DA7 /* copyimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyimage.png; sourceTree = "<group>"; };
+		D7FCC0721B784A6600BE3DA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FCC0731B784A6600BE3DA7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D7FCC0741B784A6600BE3DA7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D7FCC0751B784A6600BE3DA7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D7FCC0761B784A6600BE3DA7 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D7FCC0771B784A6600BE3DA7 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D7FCC0781B784A6600BE3DA7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D7FCC0791B784A6600BE3DA7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D7FCC07A1B784A6600BE3DA7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D7FCC07B1B784A6600BE3DA7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D7FCC07C1B784A6600BE3DA7 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D7FCC07D1B784A6600BE3DA7 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D7FCC07E1B784A6600BE3DA7 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D7FCC07F1B784A6600BE3DA7 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D7FCC0801B784A6600BE3DA7 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D7FCC0811B784A6600BE3DA7 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D7FCC0821B784A6600BE3DA7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D7FCC0831B784A6600BE3DA7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D7FCC0841B784A6600BE3DA7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D7FCC0851B784A6600BE3DA7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D7FCC0861B784A6600BE3DA7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D7FCC0871B784A6600BE3DA7 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D7FCC0881B784A6600BE3DA7 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D7FCC0891B784A6600BE3DA7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D7FCC08A1B784A6600BE3DA7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D7FCC08B1B784A6600BE3DA7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A9C4891B737E63007AA93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A9C4A21B737E63007AA93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D701BE0F1B8C7B0400C6680F /* CGAffine */ = {
+			isa = PBXGroup;
+			children = (
+				D701BE101B8C7B2100C6680F /* CGAffineViewController.h */,
+				D701BE111B8C7B2100C6680F /* CGAffineViewController.m */,
+			);
+			path = CGAffine;
+			sourceTree = "<group>";
+		};
+		D72CA2901B776BCE00130831 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCC0711B784A6600BE3DA7 /* Masonry */,
+				D7FCC06F1B78491800BE3DA7 /* copyimage.png */,
+				D78D00061B7DD41600ABFECA /* logo.png */,
+				D78D00131B7DE44800ABFECA /* computer@2x.png */,
+				D72CA2861B77395C00130831 /* metal@2x.png */,
+				D78D00111B7DE44200ABFECA /* run@2x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		D78DFFF61B7D939900ABFECA /* DrawRect */ = {
+			isa = PBXGroup;
+			children = (
+				D78DFFFD1B7D955700ABFECA /* DrawRectViewController.h */,
+				D78DFFFE1B7D955700ABFECA /* DrawRectViewController.m */,
+				D78D00001B7D958300ABFECA /* DrawRectView.h */,
+				D78D00011B7D958300ABFECA /* DrawRectView.m */,
+				D78D00031B7DC09400ABFECA /* DrawRectView1.h */,
+				D78D00041B7DC09400ABFECA /* DrawRectView1.m */,
+				D78D00081B7DD44100ABFECA /* DrawRectView2.h */,
+				D78D00091B7DD44100ABFECA /* DrawRectView2.m */,
+				D78D000B1B7DD97600ABFECA /* DrawRectView3.h */,
+				D78D000C1B7DD97600ABFECA /* DrawRectView3.m */,
+				D78D000E1B7DDE8E00ABFECA /* DrawRectView4.h */,
+				D78D000F1B7DDE8E00ABFECA /* DrawRectView4.m */,
+			);
+			path = DrawRect;
+			sourceTree = "<group>";
+		};
+		D79BDAF71B830F11003C6AD7 /* LocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				D79BDAF81B830F46003C6AD7 /* NotificationViewController.h */,
+				D79BDAF91B830F46003C6AD7 /* NotificationViewController.m */,
+				D79BDAFA1B830F46003C6AD7 /* NotificationViewController.xib */,
+			);
+			path = LocalNotification;
+			sourceTree = "<group>";
+		};
+		D79BDAFD1B831F6C003C6AD7 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				D79BDAFE1B831F7E003C6AD7 /* TextFieldViewController.h */,
+				D79BDAFF1B831F7E003C6AD7 /* TextFieldViewController.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		D7A9C4831B737E63007AA93E = {
+			isa = PBXGroup;
+			children = (
+				D72CA2901B776BCE00130831 /* source */,
+				D7A9C48E1B737E63007AA93E /* 多点触摸 */,
+				D7A9C4A81B737E63007AA93E /* 多点触摸Tests */,
+				D7A9C48D1B737E63007AA93E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A9C48D1B737E63007AA93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9C48C1B737E63007AA93E /* 多点触摸.app */,
+				D7A9C4A51B737E63007AA93E /* 多点触摸Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A9C48E1B737E63007AA93E /* 多点触摸 */ = {
+			isa = PBXGroup;
+			children = (
+				D701BE0F1B8C7B0400C6680F /* CGAffine */,
+				D79BDAFD1B831F6C003C6AD7 /* TextField */,
+				D79BDAF71B830F11003C6AD7 /* LocalNotification */,
+				D78DFFF61B7D939900ABFECA /* DrawRect */,
+				D7FCC0D11B78847400BE3DA7 /* uidevice */,
+				D7FCC0D01B78845900BE3DA7 /* badgeNumber */,
+				D7FCC0CF1B78843400BE3DA7 /* accelerometer */,
+				D7FCC0CE1B78841400BE3DA7 /* motion */,
+				D7FCC0CD1B7883E800BE3DA7 /* touch */,
+				D7FCC0CC1B7883C200BE3DA7 /* copy */,
+				D7A9C4931B737E63007AA93E /* AppDelegate.h */,
+				D7A9C4941B737E63007AA93E /* AppDelegate.m */,
+				D72CA27D1B772F6C00130831 /* TableViewController.h */,
+				D72CA27E1B772F6C00130831 /* TableViewController.m */,
+				D7A9C49C1B737E63007AA93E /* Images.xcassets */,
+				D7A9C49E1B737E63007AA93E /* LaunchScreen.xib */,
+				D7A9C48F1B737E63007AA93E /* Supporting Files */,
+			);
+			path = "多点触摸";
+			sourceTree = "<group>";
+		};
+		D7A9C48F1B737E63007AA93E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9C4901B737E63007AA93E /* Info.plist */,
+				D7A9C4911B737E63007AA93E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A9C4A81B737E63007AA93E /* 多点触摸Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9C4AB1B737E63007AA93E /* ____Tests.m */,
+				D7A9C4A91B737E63007AA93E /* Supporting Files */,
+			);
+			path = "多点触摸Tests";
+			sourceTree = "<group>";
+		};
+		D7A9C4A91B737E63007AA93E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9C4AA1B737E63007AA93E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7FCC0711B784A6600BE3DA7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCC0721B784A6600BE3DA7 /* Info.plist */,
+				D7FCC0731B784A6600BE3DA7 /* MASCompositeConstraint.h */,
+				D7FCC0741B784A6600BE3DA7 /* MASCompositeConstraint.m */,
+				D7FCC0751B784A6600BE3DA7 /* MASConstraint+Private.h */,
+				D7FCC0761B784A6600BE3DA7 /* MASConstraint.h */,
+				D7FCC0771B784A6600BE3DA7 /* MASConstraint.m */,
+				D7FCC0781B784A6600BE3DA7 /* MASConstraintMaker.h */,
+				D7FCC0791B784A6600BE3DA7 /* MASConstraintMaker.m */,
+				D7FCC07A1B784A6600BE3DA7 /* MASLayoutConstraint.h */,
+				D7FCC07B1B784A6600BE3DA7 /* MASLayoutConstraint.m */,
+				D7FCC07C1B784A6600BE3DA7 /* Masonry.h */,
+				D7FCC07D1B784A6600BE3DA7 /* MASUtilities.h */,
+				D7FCC07E1B784A6600BE3DA7 /* MASViewAttribute.h */,
+				D7FCC07F1B784A6600BE3DA7 /* MASViewAttribute.m */,
+				D7FCC0801B784A6600BE3DA7 /* MASViewConstraint.h */,
+				D7FCC0811B784A6600BE3DA7 /* MASViewConstraint.m */,
+				D7FCC0821B784A6600BE3DA7 /* NSArray+MASAdditions.h */,
+				D7FCC0831B784A6600BE3DA7 /* NSArray+MASAdditions.m */,
+				D7FCC0841B784A6600BE3DA7 /* NSArray+MASShorthandAdditions.h */,
+				D7FCC0851B784A6600BE3DA7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D7FCC0861B784A6600BE3DA7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D7FCC0871B784A6600BE3DA7 /* View+MASAdditions.h */,
+				D7FCC0881B784A6600BE3DA7 /* View+MASAdditions.m */,
+				D7FCC0891B784A6600BE3DA7 /* View+MASShorthandAdditions.h */,
+				D7FCC08A1B784A6600BE3DA7 /* ViewController+MASAdditions.h */,
+				D7FCC08B1B784A6600BE3DA7 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		D7FCC0CC1B7883C200BE3DA7 /* copy */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCC0661B783E3500BE3DA7 /* CopyViewController.h */,
+				D7FCC0671B783E3500BE3DA7 /* CopyViewController.m */,
+				D7FCC0691B78418600BE3DA7 /* CopyLabel.h */,
+				D7FCC06A1B78418600BE3DA7 /* CopyLabel.m */,
+				D7FCC06C1B78470C00BE3DA7 /* CopyImageView.h */,
+				D7FCC06D1B78470C00BE3DA7 /* CopyImageView.m */,
+			);
+			path = copy;
+			sourceTree = "<group>";
+		};
+		D7FCC0CD1B7883E800BE3DA7 /* touch */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9C4961B737E63007AA93E /* ViewController.h */,
+				D7A9C4971B737E63007AA93E /* ViewController.m */,
+			);
+			path = touch;
+			sourceTree = "<group>";
+		};
+		D7FCC0CE1B78841400BE3DA7 /* motion */ = {
+			isa = PBXGroup;
+			children = (
+				D72CA2801B772FBB00130831 /* ViewControllerMotion.h */,
+				D72CA2811B772FBB00130831 /* ViewControllerMotion.m */,
+			);
+			path = motion;
+			sourceTree = "<group>";
+		};
+		D7FCC0CF1B78843400BE3DA7 /* accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				D72CA2831B77375F00130831 /* ViewControllerAccelerometer.h */,
+				D72CA2841B77375F00130831 /* ViewControllerAccelerometer.m */,
+			);
+			path = accelerometer;
+			sourceTree = "<group>";
+		};
+		D7FCC0D01B78845900BE3DA7 /* badgeNumber */ = {
+			isa = PBXGroup;
+			children = (
+				D72CA28B1B77635100130831 /* ApplicationIconBadgeNumber.h */,
+				D72CA28C1B77635100130831 /* ApplicationIconBadgeNumber.m */,
+				D72CA28D1B77635100130831 /* ApplicationIconBadgeNumber.xib */,
+			);
+			path = badgeNumber;
+			sourceTree = "<group>";
+		};
+		D7FCC0D11B78847400BE3DA7 /* uidevice */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCC0631B78366F00BE3DA7 /* UIDeviceView.h */,
+				D7FCC0641B78366F00BE3DA7 /* UIDeviceView.m */,
+			);
+			path = uidevice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A9C48B1B737E63007AA93E /* 多点触摸 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A9C4AF1B737E63007AA93E /* Build configuration list for PBXNativeTarget "多点触摸" */;
+			buildPhases = (
+				D7A9C4881B737E63007AA93E /* Sources */,
+				D7A9C4891B737E63007AA93E /* Frameworks */,
+				D7A9C48A1B737E63007AA93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多点触摸";
+			productName = "多点触摸";
+			productReference = D7A9C48C1B737E63007AA93E /* 多点触摸.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A9C4A41B737E63007AA93E /* 多点触摸Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A9C4B21B737E63007AA93E /* Build configuration list for PBXNativeTarget "多点触摸Tests" */;
+			buildPhases = (
+				D7A9C4A11B737E63007AA93E /* Sources */,
+				D7A9C4A21B737E63007AA93E /* Frameworks */,
+				D7A9C4A31B737E63007AA93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A9C4A71B737E63007AA93E /* PBXTargetDependency */,
+			);
+			name = "多点触摸Tests";
+			productName = "多点触摸Tests";
+			productReference = D7A9C4A51B737E63007AA93E /* 多点触摸Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A9C4841B737E63007AA93E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = uuzuche;
+				TargetAttributes = {
+					D7A9C48B1B737E63007AA93E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D7A9C4A41B737E63007AA93E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D7A9C48B1B737E63007AA93E;
+					};
+				};
+			};
+			buildConfigurationList = D7A9C4871B737E63007AA93E /* Build configuration list for PBXProject "多点触摸" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A9C4831B737E63007AA93E;
+			productRefGroup = D7A9C48D1B737E63007AA93E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A9C48B1B737E63007AA93E /* 多点触摸 */,
+				D7A9C4A41B737E63007AA93E /* 多点触摸Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A9C48A1B737E63007AA93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72CA28F1B77635100130831 /* ApplicationIconBadgeNumber.xib in Resources */,
+				D72CA2871B77395D00130831 /* metal@2x.png in Resources */,
+				D7FCC08C1B784A6600BE3DA7 /* Info.plist in Resources */,
+				D7A9C4A01B737E63007AA93E /* LaunchScreen.xib in Resources */,
+				D78D00071B7DD41600ABFECA /* logo.png in Resources */,
+				D79BDAFC1B830F46003C6AD7 /* NotificationViewController.xib in Resources */,
+				D7FCC0701B78491800BE3DA7 /* copyimage.png in Resources */,
+				D7A9C49D1B737E63007AA93E /* Images.xcassets in Resources */,
+				D78D00121B7DE44200ABFECA /* run@2x.png in Resources */,
+				D78D00141B7DE44800ABFECA /* computer@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A9C4A31B737E63007AA93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A9C4881B737E63007AA93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79BDB001B831F7E003C6AD7 /* TextFieldViewController.m in Sources */,
+				D72CA2851B77375F00130831 /* ViewControllerAccelerometer.m in Sources */,
+				D7FCC06B1B78418600BE3DA7 /* CopyLabel.m in Sources */,
+				D78D00021B7D958300ABFECA /* DrawRectView.m in Sources */,
+				D7A9C4981B737E63007AA93E /* ViewController.m in Sources */,
+				D7FCC0651B78366F00BE3DA7 /* UIDeviceView.m in Sources */,
+				D7FCC08D1B784A6600BE3DA7 /* MASCompositeConstraint.m in Sources */,
+				D7FCC06E1B78470C00BE3DA7 /* CopyImageView.m in Sources */,
+				D7FCC0921B784A6600BE3DA7 /* MASViewConstraint.m in Sources */,
+				D78D000D1B7DD97600ABFECA /* DrawRectView3.m in Sources */,
+				D7FCC0681B783E3500BE3DA7 /* CopyViewController.m in Sources */,
+				D78D000A1B7DD44100ABFECA /* DrawRectView2.m in Sources */,
+				D7FCC0951B784A6600BE3DA7 /* View+MASAdditions.m in Sources */,
+				D701BE121B8C7B2100C6680F /* CGAffineViewController.m in Sources */,
+				D7FCC0941B784A6600BE3DA7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D78DFFFF1B7D955700ABFECA /* DrawRectViewController.m in Sources */,
+				D7FCC0901B784A6600BE3DA7 /* MASLayoutConstraint.m in Sources */,
+				D7FCC0961B784A6600BE3DA7 /* ViewController+MASAdditions.m in Sources */,
+				D7FCC08F1B784A6600BE3DA7 /* MASConstraintMaker.m in Sources */,
+				D7A9C4951B737E63007AA93E /* AppDelegate.m in Sources */,
+				D7A9C4921B737E63007AA93E /* main.m in Sources */,
+				D72CA28E1B77635100130831 /* ApplicationIconBadgeNumber.m in Sources */,
+				D78D00051B7DC09400ABFECA /* DrawRectView1.m in Sources */,
+				D79BDAFB1B830F46003C6AD7 /* NotificationViewController.m in Sources */,
+				D78D00101B7DDE8E00ABFECA /* DrawRectView4.m in Sources */,
+				D72CA27F1B772F6C00130831 /* TableViewController.m in Sources */,
+				D7FCC0931B784A6600BE3DA7 /* NSArray+MASAdditions.m in Sources */,
+				D7FCC0911B784A6600BE3DA7 /* MASViewAttribute.m in Sources */,
+				D72CA2821B772FBB00130831 /* ViewControllerMotion.m in Sources */,
+				D7FCC08E1B784A6600BE3DA7 /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A9C4A11B737E63007AA93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A9C4AC1B737E63007AA93E /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A9C4A71B737E63007AA93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A9C48B1B737E63007AA93E /* 多点触摸 */;
+			targetProxy = D7A9C4A61B737E63007AA93E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A9C49E1B737E63007AA93E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A9C49F1B737E63007AA93E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A9C4AD1B737E63007AA93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7A9C4AE1B737E63007AA93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A9C4B01B737E63007AA93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多点触摸/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7A9C4B11B737E63007AA93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多点触摸/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7A9C4B31B737E63007AA93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "多点触摸Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多点触摸.app/多点触摸";
+			};
+			name = Debug;
+		};
+		D7A9C4B41B737E63007AA93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "多点触摸Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多点触摸.app/多点触摸";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A9C4871B737E63007AA93E /* Build configuration list for PBXProject "多点触摸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A9C4AD1B737E63007AA93E /* Debug */,
+				D7A9C4AE1B737E63007AA93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A9C4AF1B737E63007AA93E /* Build configuration list for PBXNativeTarget "多点触摸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A9C4B01B737E63007AA93E /* Debug */,
+				D7A9C4B11B737E63007AA93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A9C4B21B737E63007AA93E /* Build configuration list for PBXNativeTarget "多点触摸Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A9C4B31B737E63007AA93E /* Debug */,
+				D7A9C4B41B737E63007AA93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A9C4841B737E63007AA93E /* Project object */;
+}
